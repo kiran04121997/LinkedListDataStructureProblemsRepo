@@ -26,8 +26,8 @@ namespace LinkedListAndDataStructures
             customLinkedList.DisplayLinkedList();
             Console.WriteLine("-------------------------");
             int node = customLinkedList.SearchNode(30);
-            if (node != 0)
-                Console.WriteLine("{0} node is present in the Linked List", node);
+            customLinkedList.InsertAtParticularPosition(node + 1, 40);
+            customLinkedList.DisplayLinkedList();
         }
     }
 }
